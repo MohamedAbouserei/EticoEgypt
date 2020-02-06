@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 991px)
+{
+ #logo
+{
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+margin-top:-20px;
+}
+.main-menu
+{
+    height:55px ;
+}
+.box_data
+{
+font-size:10px;
+}
+.genric-btn
+{
+    font-size:8px;
+}
+.gallery_box>li
+{
+    max-height: 250px;
+}
+
+}

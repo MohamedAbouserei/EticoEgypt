@@ -1,0 +1,58 @@
+.panel-heading {
+    padding: 0
+}
+.panel-heading a {
+    display: block;
+    padding: 20px 10px;
+}
+.panel-heading a.collapsed {
+    background: #fff
+}
+.panel-heading a {
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+.panel-heading a:after {
+    content: '-'
+}
+.panel-heading a.collapsed:after {
+    content: '+'
+}
+.nav.nav-tabs li a,
+.nav.nav-tabs li.active > a:hover,
+.nav.nav-tabs li.active > a:active,
+.nav.nav-tabs li.active > a:focus {
+    border-bottom-width: 0px;
+    outline: none;
+}
+.tab-pane {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+p
+{
+  line-height: 26pt;color:black;font-size: 18px;font-family:Lucida Grande;white-space: pre-wrap;width:auto;
+}
+
+
+
+/* used for sidebar tab/collapse*/
+@media (max-width: 991px) {
+  .visible-tabs {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .visible-tabs {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-tabs {
+    display: none !important;
+  }
+}
